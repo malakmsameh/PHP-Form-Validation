@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+.box {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, h2 { margin-top: 0; }
+p { color: #777; }
+
+.btn {
+  display: block;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-blue { background: #4a5cff; }
+.btn-red  { background: #ff5a5a; }
+
+form { text-align: left; }
+label { display: block; margin-top: 15px; font-weight: bold; font-size: 14px; }
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.name-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* Messages shown by signup.php */
+.error   { background: #ffe5e5; color: #b00020; padding: 10px 15px; border-radius: 6px; text-align: left; }
+.success { background: #e5ffe9; color: #1b7a2e; padding: 10px 15px; border-radius: 6px; }
+.error ul { margin: 0; padding-left: 18px; }

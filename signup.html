@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Sign up</h2>
+    <p>Create an account, it's free</p>
+
+    <form action="signup.php" method="post">
+
+      <label>Email</label>
+      <input type="text" name="email" placeholder="abc@gmail.com" required>
+
+      <label>Mobile (14 digits)</label>
+      <input type="text" name="mobile" placeholder="12345678901234" required>
+
+      <label>Full name</label>
+      <div class="name-row">
+        <input type="text" name="fname" placeholder="First name" required>
+        <input type="text" name="mname" placeholder="Middle name" required>
+        <input type="text" name="lname" placeholder="Last name" required>
+        <input type="text" name="famname" placeholder="Family name" required>
+      </div>
+
+      <button type="submit" class="btn btn-red">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+</body>
+</html>
